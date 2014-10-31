@@ -12,8 +12,10 @@ A easy to use filesharing service, made to share all kind of files faster than b
    A link is inserted and your computer starts uploading your screenshot/file/whatever to our relay server.
 ![Paste](http://bagbag.github.io/pasty/pasty-images/3.png)
 
-#### 3. your (chat) partner opens the link, sees the upload progress, sees the result, and gets your stuff....
+#### 3. your (chat) partner opens the link, sees the upload progress
 ![Progress](http://bagbag.github.io/pasty/pasty-images/4.png)
+
+#### sees the result, and has your stuff.... 
 ![Download](http://bagbag.github.io/pasty/pasty-images/5.png)
 
 ### This also works with different types of data:
