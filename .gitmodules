@@ -1,0 +1,3 @@
+[submodule "pastysharp"]
+	path = pastysharp
+	url = git@github.com:bagbag/pastysharp.git
