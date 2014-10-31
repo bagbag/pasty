@@ -28,7 +28,7 @@ A easy to use filesharing service, made to share all kind of files faster than b
 ### Privacy:
 1. it's open source, host it yourself or use our server (server not available for now)
 2. your data gets AES-encrypted before upload.
-3. the link you send to your partner contains the decryption key as a anchor like http://pasty.de/UPLOADID#PRIVATEKEY. anchors are never sent to the webserver, your browser decrypts it
+3. the link you send to your partner contains the decryption key as a anchor like http://psty.de/?UPLOADID#PRIVATEKEY -> anchors are never sent to the webserver, your browser decrypts it
 
 ### Viewer Features:
 * Upload **Progressbar** and State
