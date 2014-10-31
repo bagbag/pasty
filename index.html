@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Pasty by bagbag</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Pasty</h1>
+          <h2></h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/bagbag/pasty/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/bagbag/pasty/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/bagbag/pasty" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h2>
+<a name="hello-and-welcome-to-pasty" class="anchor" href="#hello-and-welcome-to-pasty"><span class="octicon octicon-link"></span></a>Hello and welcome to pasty</h2>
+
+<h3>
+<a name="whats-pasty" class="anchor" href="#whats-pasty"><span class="octicon octicon-link"></span></a>What's pasty?</h3>
+
+<p>A easy to use filesharing service, made to share all kind of files faster than before.
+<img src="http://i.imgur.com/56uab30.png" alt="Pasty"></p>
+
+<h3>
+<a name="how-does-it-work" class="anchor" href="#how-does-it-work"><span class="octicon octicon-link"></span></a>How does it work?</h3>
+
+<h4>
+<a name="1-you-copy-something-to-clipboard" class="anchor" href="#1-you-copy-something-to-clipboard"><span class="octicon octicon-link"></span></a>1. you copy something to clipboard</h4>
+
+<p><img src="http://i.imgur.com/p36dipz.png" alt="Copy"></p>
+
+<h4>
+<a name="2-you-press-ctrlshiftv-in-skype-irc-in-the-web-or-wherever-you-want" class="anchor" href="#2-you-press-ctrlshiftv-in-skype-irc-in-the-web-or-wherever-you-want"><span class="octicon octicon-link"></span></a>2. you press <strong>ctrl+shift+v</strong> in skype, irc, in the web or wherever you want.</h4>
+
+<p>A link is inserted and your computer starts uploading your screenshot/file/whatever to our relay server.
+<img src="http://i.imgur.com/2esU2ST.png" alt="Paste"></p>
+
+<h4>
+<a name="3-your-chat-partner-opens-the-link-sees-the-upload-progress-sees-the-result-and-gets-your-stuff" class="anchor" href="#3-your-chat-partner-opens-the-link-sees-the-upload-progress-sees-the-result-and-gets-your-stuff"><span class="octicon octicon-link"></span></a>3. your (chat) partner opens the link, sees the upload progress, sees the result, and gets your stuff....</h4>
+
+<p><img src="http://i.imgur.com/Qo2w0EY.jpg" alt="Progress">
+<img src="http://i.imgur.com/4ACuYXn.jpg" alt="Download"></p>
+
+<h3>
+<a name="this-also-works-with-different-types-of-data" class="anchor" href="#this-also-works-with-different-types-of-data"><span class="octicon octicon-link"></span></a>This also works with different types of data:</h3>
+
+<h4>
+<a name="images" class="anchor" href="#images"><span class="octicon octicon-link"></span></a>Images</h4>
+
+<p><img src="http://i.imgur.com/QDI6lbp.jpg" alt="Image"></p>
+
+<h4>
+<a name="text" class="anchor" href="#text"><span class="octicon octicon-link"></span></a>Text</h4>
+
+<p><img src="http://i.imgur.com/DVxm9t2.jpg" alt="Text"></p>
+
+<h4>
+<a name="and-everything-else-although-it-wont-handle-it-in-a-special-way-just-a-simple-download-but-we-will-soon-support-more-like-audio" class="anchor" href="#and-everything-else-although-it-wont-handle-it-in-a-special-way-just-a-simple-download-but-we-will-soon-support-more-like-audio"><span class="octicon octicon-link"></span></a>And everything else (although it won't handle it in a special way, just a simple download, but we will soon support more like audio.)</h4>
+
+<h3>
+<a name="privacy" class="anchor" href="#privacy"><span class="octicon octicon-link"></span></a>Privacy:</h3>
+
+<ol>
+<li>it's open source, host it yourself or use our server (server not available for now)</li>
+<li>your data gets AES-encrypted before upload.</li>
+<li>the link you send to your partner contains the decryption key as a anchor like <a href="http://pasty.de/UPLOADID#PRIVATEKEY">http://pasty.de/UPLOADID#PRIVATEKEY</a>. anchors are never sent to the webserver, your browser decrypts it</li>
+</ol>
+
+<h3>
+<a name="viewer-features" class="anchor" href="#viewer-features"><span class="octicon octicon-link"></span></a>Viewer Features:</h3>
+
+<ul>
+<li>Upload <strong>Progressbar</strong> and State</li>
+<li><strong>Image Viewer</strong></li>
+<li>
+<strong>Syntaxhighting</strong> for code uploads</li>
+<li>Auto Redirect for links</li>
+<li>Download for any other type of upload</li>
+</ul>
+
+<h3>
+<a name="supported-upload-types-right-now" class="anchor" href="#supported-upload-types-right-now"><span class="octicon octicon-link"></span></a>Supported Upload Types right now:</h3>
+
+<ul>
+<li>Screenshots, text or code, links, files and folders in explorer.</li>
+</ul>
+
+<h3>
+<a name="what-about-linux-and-macosx" class="anchor" href="#what-about-linux-and-macosx"><span class="octicon octicon-link"></span></a>What about Linux and MacOSX?</h3>
+
+<p>We will support that with our next version (which is basically a complete rewrite of everything)</p>
+        </section>
+
+        <footer>
+          Pasty is maintained by <a href="https://github.com/bagbag">bagbag</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
